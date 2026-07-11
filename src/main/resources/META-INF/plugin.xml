@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>id.ac.umj.LogcatDetector</id>
+    <name>LogcatDetector</name>
+    <vendor url="https://id.ac.umj">Teknik Informatika UMJ</vendor>
+
+    <description><![CDATA[
+    <b>LogcatDetector</b>: Deteksi bug Android secara Real-Time.<br>
+    Mendeteksi crash, ANR, memory leak, dan memberikan solusi perbaikan otomatis.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.jetbrains.android</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="LogcatDetector Alerts" displayType="BALLOON"/>
+
+        <toolWindow id="LogcatDetector"
+                    anchor="bottom"
+                    factoryClass="id.ac.umj.logcatdetector.MyToolWindowFactory"
+                    icon="AllIcons.Actions.Search"/>
+    </extensions>
+</idea-plugin>
