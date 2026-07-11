@@ -16,7 +16,7 @@ A powerful and lightweight IntelliJ IDEA plugin designed to simplify, filter, an
 
 ### 1. Manual Installation (Recommended)
 * Go to the **Releases** section on the right side of this repository.
-* Download the latest `.jar` or `.zip` plugin file from the **Assets** section.
+* Download the latest `.zip` plugin file from the **Assets** section.
 * Open IntelliJ IDEA, then navigate to `Settings/Preferences` > `Plugins`.
 * Click the **Gear icon (⚙️)** at the top and select **Install Plugin from Disk...**
 * Choose the downloaded file and restart your IDE.
